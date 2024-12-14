@@ -1,0 +1,2 @@
+{"level":"error","message":"Container execution error: Error: stdout , stderr   File \"/code/main.py\", line 1\n    print('bye bro's')\n                   ^\nSyntaxError: invalid syntax\n","timestamp":"2024-12-14T07:37:40.388Z"}
+{"level":"error","message":"Test case execution failed: Error: stdout , stderr   File \"/code/main.py\", line 1\n    print('bye bro's')\n                   ^\nSyntaxError: invalid syntax\n","timestamp":"2024-12-14T07:37:40.390Z"}

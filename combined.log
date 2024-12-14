@@ -1,0 +1,19 @@
+{"level":"info","message":"Server running on port 3000","timestamp":"2024-12-14T07:05:39.830Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2024-12-14T07:30:21.655Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2024-12-14T07:31:14.771Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2024-12-14T07:31:18.814Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2024-12-14T07:31:25.654Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2024-12-14T07:31:32.434Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2024-12-14T07:31:37.683Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2024-12-14T07:32:09.241Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2024-12-14T07:35:36.501Z"}
+{"level":"info","message":"Starting execution fd1055b2-2ed4-458f-bab4-d553207fa7d2 for language: python","timestamp":"2024-12-14T07:37:22.927Z"}
+{"level":"info","message":"Starting execution e0d1ee53-d2c3-4556-9947-79ebad954ed5 for language: python","timestamp":"2024-12-14T07:37:39.730Z"}
+{"level":"error","message":"Container execution error: Error: stdout , stderr   File \"/code/main.py\", line 1\n    print('bye bro's')\n                   ^\nSyntaxError: invalid syntax\n","timestamp":"2024-12-14T07:37:40.388Z"}
+{"level":"error","message":"Test case execution failed: Error: stdout , stderr   File \"/code/main.py\", line 1\n    print('bye bro's')\n                   ^\nSyntaxError: invalid syntax\n","timestamp":"2024-12-14T07:37:40.390Z"}
+{"level":"info","message":"Starting execution 8aa0eca8-2558-47c5-97e3-7d2b0b5b5c94 for language: python","timestamp":"2024-12-14T07:37:46.247Z"}
+{"level":"info","message":"Starting execution a3135ebc-e639-4087-86cc-3d1cbf6b896b for language: javascript","timestamp":"2024-12-14T07:38:44.785Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2024-12-14T07:38:45.737Z"}
+{"level":"info","message":"Starting execution 16341f2a-0b26-4fe4-8a20-59f6fdffd6e8 for language: javascript","timestamp":"2024-12-14T07:38:45.792Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2024-12-14T07:38:46.429Z"}
+{"level":"info","message":"Starting execution f832b646-9320-4ee6-b544-a590b627ecae for language: python","timestamp":"2024-12-14T07:38:57.306Z"}
