@@ -1,6 +1,6 @@
 import { Docker } from 'docker-cli-js';
 import { logger } from '../../utils/logger.js';
-
+const os = require('os');
 const docker = new Docker();
 
 const checkDockerConnection = async () => {
@@ -19,10 +19,11 @@ export const runContainer = async (containerName, config, executionDir) => {
     if (!isDockerRunning) {
       throw new Error('Docker is not running. Please start Docker Desktop and try again.');
     }
+    const totalCPUs =await os.cpus().length; // Detect the total number of CPUs
 
     const result = await docker.command(`run --name ${containerName} \
       --memory=${process.env.MAX_MEMORY} \
-      --cpus=${process.env.DOCKER_CPU_LIMIT} \
+      --cpus=${totalCPUs} \
       --network none \
       --rm \
       -v ${executionDir}:/code \

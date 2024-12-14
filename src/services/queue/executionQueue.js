@@ -1,5 +1,4 @@
 import Queue from 'better-queue';
-import { logger } from '../../utils/logger.js';
 import { ExecutionStatus } from '../../types/execution.js';
 
 class ExecutionQueue {
@@ -12,9 +11,9 @@ class ExecutionQueue {
         cb(error);
       }
     }, {
-      concurrent: 5,
-      maxRetries: 2,
-      retryDelay: 1000
+      concurrent: process.env.concurrent,
+      maxRetries: process.env.maxretries,
+      retryDelay: process.env.delaytime
     });
 
     this.activeExecutions = new Map();

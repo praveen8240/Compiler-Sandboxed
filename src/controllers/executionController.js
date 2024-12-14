@@ -12,7 +12,7 @@ export const executeCode = async (req, res) => {
     logger.info(`Starting execution ${executionId} for language: ${language}`);
 
     // Convert raw test cases to TestCase objects
-    const formattedTestCases = testCases.map(tc => 
+    const formattedTestCases = testCases.map(tc =>
       new TestCase(tc.input, tc.expectedOutput)
     );
 
