@@ -1,4 +1,4 @@
-# Code Execution Platfor
+# Code Execution Platform
 
 **Private version is available in Rust — contact me for collaboration**  
 [praveen-mathi.vercel.app](https://praveen-mathi.vercel.app/)
